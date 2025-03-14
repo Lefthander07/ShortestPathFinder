@@ -37,7 +37,6 @@ int main() {
 
         bfs(start, graph, distances);
 
-
         for (int i = 0; i < graph.getVertexCount(); i++) {
             std::cout << distances[i] << std::endl;
         }
