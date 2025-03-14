@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <vector>
 #include <fstream>
-#include "graph.h"
+#include "Graph.h"
 
 Graph readGraphFromFile(const std::string& filename, int& start) {
     std::ifstream file(filename);
@@ -26,7 +26,7 @@ Graph readGraphFromFile(const std::string& filename, int& start) {
 }
 
 int main() {
-    std::string filename = "graph.txt";
+    std::string filename = "../graph.txt";
     int start;
 
     try
